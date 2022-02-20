@@ -66,3 +66,5 @@ npx prisma db push
 ```
 npm run seed
 ```
+
+**Obs:** Não esquecer de gerar o arquivo `.env` baseado no `.env-example`
