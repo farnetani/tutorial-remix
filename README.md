@@ -51,3 +51,18 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+## Informações
+
+Implementação feita e tirada do tutorial oficial:
+[https://remix.run/docs/en/v1/tutorials/jokes](https://remix.run/docs/en/v1/tutorials/jokes)
+
+- Comando do Prisma para criar o database (sqlite)
+```
+npx prisma db push
+``` 
+
+- Para popular o database
+```
+npm run seed
+```
