@@ -31,7 +31,8 @@
     "build": "cross-env NODE_ENV=production remix build",
     "dev": "cross-env NODE_ENV=development remix dev",
     "start": "cross-env NODE_ENV=production remix-serve build",
-    "seed": "node --require esbuild-register prisma/seed.ts"
+    "seed": "node --require esbuild-register prisma/seed.ts",
+    "studio": "npx prisma studio"
   },
   "prisma": {
     "seed": "node --require esbuild-register prisma/seed.ts"
