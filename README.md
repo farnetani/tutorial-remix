@@ -67,4 +67,9 @@ npx prisma db push
 npm run seed
 ```
 
+- Para rodar o prisma studio (ide de database)
+```
+npx prisma studio
+```
+
 **Obs:** Não esquecer de gerar o arquivo `.env` baseado no `.env-example`
